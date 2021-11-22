@@ -31,4 +31,30 @@ As far as the project is well built and all the requirements met the cost can be
 In any situation the calculator has to produce a correct result defined by the well known arthemetic rules. Parse the incoming keys and assign them to the appropriate control value. Complete an Expression string from incoming keys. Perform a calculation defined by the Expression string according to arithmetic rules, when encountering operator keys +, -, *, / as well as the Equals key =. We notice that we need several calculation functions as the the rule for a calculation after Equals key and addition and subtraction operators are different than for multiplication and division operators.
 # SWOT ANALYSIS
 ## Strengths
+• Calculator can Solve complicated problems quickly and in an effiient manner.
+
+• It gives more accurate results than counting manually.
+
+• Avoids boredom in counting process.
+
+• Calculator  will be effiecient and fast in response.
+
+## Weakness
+• Calculator limits the knowledge of users.
+
+• Users will be so dependent on using calculators for counting.
+
+• Relaying too much on calculator for counting can embarrass the users.
+
+## Opertunities
+• General purpose calculators are those designed for specific markets.
+
+• Basic calculators are affordable to most and they became common in schools
+
+• Can be implemented on mobile devices with some advanced features.
+
+## Threats
+
+
+
 
