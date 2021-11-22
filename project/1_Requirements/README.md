@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
-A Calculator is a small electronic device used to perform various arithmetic operations like addition, subtraction, multiplication, division, percentage, etc. It makes our calculations easier and faster.  We use a scientific or sophisticated calculator to solve complex calculations like trigonometry functions, exponential operators, degrees, radians, log functions, hyperbolic functions etc.
+A Calculator is used to perform various arithmetic operations like addition, subtraction, multiplication, division, percentage, etc. It makes our calculations easier and faster.  We use a scientific or sophisticated calculator to solve complex calculations like trigonometry functions, exponential operators, degrees, radians, log functions, hyperbolic functions etc.
 ## Research
 Simple calculator speed is improved in such a way that it will maximize the hardware needed and reduce the cost and complexity of the machine. It is a portable device that can use anywhere to perform simple mathematical operations.
 ## Features and Timeline
@@ -46,7 +46,7 @@ In any situation the calculator has to produce a correct result defined by the w
 
 • Relaying too much on calculator for counting can embarrass the users.
 
-## Opertunities
+## Opportunities
 • General purpose calculators are those designed for specific markets.
 
 • Basic calculators are affordable to most and they became common in schools
@@ -54,6 +54,43 @@ In any situation the calculator has to produce a correct result defined by the w
 • Can be implemented on mobile devices with some advanced features.
 
 ## Threats
+• Loss of figure in computation of higer numbers.
+
+• The processing of numbers are in binary coded decimal(BCD).
+
+# 4 W's and 1 H
+## WHO
+All the financial related employees and students can us this calculator to find out the result.
+## WHAT
+Calculator allows users to perform various arthemetic operations more easily.
+## WHEN
+To perform arthemetic operations with minimal human intervention.
+## WHERE
+It can be used in all domains. It can also easily implemented on the mobile systems and finance companies
+## HOW
+Calculators work by processing information in binary form. when you input numbers in to a calculator, the integrated circuit converts those numbers to binary strings of 0s and 1s. Once a calculation has been completed, the answer in binary form is then converted back to our normal base-ten system and displayed on the calculator's display screen.
+# Details Requirements
+## High Level Requirements
+| ID | Key | Student Discription | Expected output | Actual output | pass/Fail
+|------|------| ------| ------|
+| TID1 | Number of tickets |Students Select the no of tickets | Success | Success | Pass |
+| TID1|  Name  | Students enter their _Names_ | Success  | Success | Pass |
+| TID1 | Gender | Students enter their _Gender_  | Success | Success | Pass |
+| TID1 | Age    | Students enter their _Age_  | Success | Success | Pass |
+| TID1 | Source | Students enter the _SourcePlace_   | Success | Success | Pass |
+| TID1|  Destination  | Students enter _Destinationplace_  | Success | Success | Pass |
+|TID1| Train | Students have the option to select the _Train to travel_  for different location | Success | Success | Pass |
+
+## Low Level Requiements
+| ID | Key | Student Discription | Expected output | Actual output | pass/Fail
+|------|------| ------| ------|
+| LLR1 | seats | Students after selected seat number then booking is confirm page is dispalyed | Success | Success | Pass |
+| LLR2 | Students View (SP) | The _Source Place_ is viewed | Success | Success | Pass |
+| LLR3 | Students View (DP) | The _Destination Place_ is viewd | Success | Success | Pass |
+| LLR4 | Students Travel Amount | Students travelling _Amount_ will be displayed  | Success | Success | Pass |
+| LLR5 | Students Final View | _Thank you_ | Success | Success | Pass |
+
+
 
 
 
