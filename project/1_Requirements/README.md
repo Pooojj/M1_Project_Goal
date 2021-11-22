@@ -71,24 +71,24 @@ It can be used in all domains. It can also easily implemented on the mobile syst
 Calculators work by processing information in binary form. when you input numbers in to a calculator, the integrated circuit converts those numbers to binary strings of 0s and 1s. Once a calculation has been completed, the answer in binary form is then converted back to our normal base-ten system and displayed on the calculator's display screen.
 # Details Requirements
 ## High Level Requirements
-| ID | Key | Student Discription | Expected output | Actual output | pass/Fail
-|------|------| ------| ------|
-| TID1 | Number of tickets |Students Select the no of tickets | Success | Success | Pass |
-| TID1|  Name  | Students enter their _Names_ | Success  | Success | Pass |
-| TID1 | Gender | Students enter their _Gender_  | Success | Success | Pass |
-| TID1 | Age    | Students enter their _Age_  | Success | Success | Pass |
-| TID1 | Source | Students enter the _SourcePlace_   | Success | Success | Pass |
-| TID1|  Destination  | Students enter _Destinationplace_  | Success | Success | Pass |
-|TID1| Train | Students have the option to select the _Train to travel_  for different location | Success | Success | Pass |
+| ID | Description | Status |
+|----|-------------|--------|
+| HR_01 | Operating System (Windows 10/Linux) | Implemented |
+| HR_02 | C language | Implemented |
+| HR_03 | Pentium IV Processor | Implemented |
+| HR_04 | RAM (512MB) | Implemented |
+| HR_05 | Hard Disk(2GB) | Implemented |
 
 ## Low Level Requiements
-| ID | Key | Student Discription | Expected output | Actual output | pass/Fail
-|------|------| ------| ------|
-| LLR1 | seats | Students after selected seat number then booking is confirm page is dispalyed | Success | Success | Pass |
-| LLR2 | Students View (SP) | The _Source Place_ is viewed | Success | Success | Pass |
-| LLR3 | Students View (DP) | The _Destination Place_ is viewd | Success | Success | Pass |
-| LLR4 | Students Travel Amount | Students travelling _Amount_ will be displayed  | Success | Success | Pass |
-| LLR5 | Students Final View | _Thank you_ | Success | Success | Pass |
+| ID | Description | Status |
+|----|-------------|--------|
+| LR_01 | Using Addition, Subtraction, Multiplication, Division functions | Implemented |
+| LR_02 | Using functions to find simple and compound interests and total amount | Implemented |
+| LR_03 | Using functions to find factorial, power, log and exponential | Implemented |
+| LR_04 | Functions to find trigonometric operations | Implemented |
+| LR_05 | Functions to display hex, octal, binary and ASCII of a decimal number | Implemented |
+| LR_06 | Bitwise logical operations | Implemented |
+
 
 
 
