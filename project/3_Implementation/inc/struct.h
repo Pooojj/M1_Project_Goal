@@ -1,9 +1,16 @@
-#ifndef _FUN_H
-#define _FUN_H
-void addrecords();
-void deleterecords();
-void searchrecords();
-void listrecords();
-void payment();
-void modifyrecords();
-#endif
+#include<math.h>
+switch(Calc_oprn)
+        {
+            case '+': addition();
+                      break;
+ 
+            case '-': subtraction();
+                      break;
+ 
+            case '*': multiplication();
+                      break;
+ 
+            case '/': division();
+                      break;
+       }
+ 
