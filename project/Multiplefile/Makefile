@@ -1,11 +1,27 @@
-SRC = main.c\
-src/Calculator_Operations.c
-INC = inc
-all.exe : $(SRC) 
-	gcc $^ -I$(INC) -o $@
+#Target_name : Dependencies
+#<TAB>command
+PROJ_NAME = Feature
+SRC = feature.c main.c
 
-run : all.exe
-	./all.exe
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
 
-clean:
-	del all.exe
+
+$(PROJ_NAME) : $(SRC)
+	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+
+run : $(PROJ_NAME)
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+clean: 
+	rm -rf *.out
+
