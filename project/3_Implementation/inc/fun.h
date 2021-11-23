@@ -1,9 +1,10 @@
 #ifndef _FUN_H
 #define _FUN_H
-void addrecords();
-void deleterecords();
-void searchrecords();
-void listrecords();
-void payment();
-void modifyrecords();
+void Addition();
+void Subtraction();
+void Multiplication();
+void Division();
+void Modules();
+void Power();
+void Factorial();
 #endif
